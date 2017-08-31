@@ -69,6 +69,7 @@ class CustomPayloadGenerator(IIntruderPayloadGenerator):
         if self.unicodePayload:
             self.self.requestTemplate = str(self.requestTemplate)
 
+        self.morePayloads = True
         self.init()
 
 
